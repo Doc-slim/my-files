@@ -118,12 +118,28 @@
   width: 170px;
   margin: 20px auto 5px;
  }
+ #services h3 {
+ color: #fff;
+ }
+ #services p{
+ color: #fff;
+ }
+
+ #services .icon {
+   color: #fff;
+ }
    
  button{
+   color: #fff;
    width: 150px;
    padding: 15px 0;
    text-align: center;
    margin: 0 10px;
    border-radius: 70px;
-   background: #fff;
+   background: transparent;
+   border: solid #fff;
+ }
+
+ span{
+   font-style: italic;
  }
