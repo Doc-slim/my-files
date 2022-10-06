@@ -1,0 +1,121 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+/*-------Navigation----*/ 
+#Nav-bar{
+   position: sticky;
+   top: 0;
+   z-index: 10;
+}
+
+.navbar-brand img{
+ height: 40px;
+ padding-left: 30px;
+
+}
+
+.navbar-nav li{
+ padding: 0, 20px;
+}
+
+.navbar-nav li a{
+   float: right;
+  text-align: left;
+}
+
+#Nav-bar ul li a:hover{
+ color: #3b0ca9 !important;
+
+}
+
+.navbar{
+   background: #fff;
+}
+
+.navbar-toggler{
+   border: none !important;
+}
+
+.nav-link{
+   color: #555 !important;
+   font-weight: bold;
+   font-size: 16px;
+}
+/*------slider--------*/
+#slider{
+   width: 100%;
+}
+
+.carousel-caption{
+   top: 50%;
+   transform: translateY(-50%);
+   bottom: initial !important;
+}
+
+.carousel-caption h5{
+ color: #fff;
+ font-size: 42px;
+
+}
+
+/*--------About---------*/
+
+#About{
+   margin-top: 50px;
+   margin-bottom: 50px;
+   color: #555;
+
+}
+
+#About .btn{
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+
+.About-content{
+  padding: 20px;
+
+}
+
+.Order-food img{
+   width: 70%;
+}
+ .BTN2{
+   margin-top: 20px;
+   margin-bottom: 30px;
+   width: 200px;
+   font-weight: bold;
+   border-radius: 5px;
+   cursor: pointer;
+
+ }
+
+ /*----------services---------*/
+
+ #services{
+     background-color: rgb(99, 55, 5);
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     padding-top: 50px;
+     padding-bottom: 50px;
+
+ }
+
+ #services h1{
+   color: #fff !important;
+   text-align: center;
+   padding-bottom: 10px;
+ }
+
+ #services h1::after{
+  content: '';
+  background: #efefef;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+ }
+   
