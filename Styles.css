@@ -119,3 +119,11 @@
   margin: 20px auto 5px;
  }
    
+ button{
+   width: 150px;
+   padding: 15px 0;
+   text-align: center;
+   margin: 0 10px;
+   border-radius: 70px;
+   background: #fff;
+ }
