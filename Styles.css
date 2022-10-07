@@ -105,41 +105,57 @@
  }
 
  #services h1{
-   color: rgb(61, 33, 1) !important;
+   color: #fff !important;
    text-align: center;
    padding-bottom: 10px;
  }
 
  #services h1::after{
   content: '';
-  background: rgb(61, 33, 1);
+  background: #efefef;
   display: block;
   height: 3px;
   width: 170px;
   margin: 20px auto 5px;
  }
  #services h3 {
- color: rgb(61, 33, 1);
- }
- #services p{
- color: rgb(61, 33, 1);
+ color: #fff;
  }
 
  #services .icon {
-   color: rgb(61, 33, 1);
+   color: #fff;
  }
+
+ #services p{
+ color: #fff;
+ font-size: 14px;
+ margin-top: 20px;
+ }
+
+
    
  button{
-   color: rgb(61, 33, 1);
+   color: #fff;
    width: 150px;
    padding: 15px 0;
    text-align: center;
    margin: 0 10px;
    border-radius: 70px;
    background: transparent;
-   border: solid rgb(61, 33, 1);
+   border: solid #fff;
  }
 
  span{
    font-style: italic;
+ }
+
+ .services .col-md-3:hover{
+     background: rgb(74, 42, 5);
+ }
+
+ button:hover{
+   background-color: rgb(61, 33, 1);
+   border: rgb(119, 76, 27);
+   color: rgb(119, 76, 27);
+   transition: 0.7s;
  }
