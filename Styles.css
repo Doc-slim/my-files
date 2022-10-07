@@ -105,39 +105,39 @@
  }
 
  #services h1{
-   color: #fff !important;
+   color: rgb(61, 33, 1) !important;
    text-align: center;
    padding-bottom: 10px;
  }
 
  #services h1::after{
   content: '';
-  background: #efefef;
+  background: rgb(61, 33, 1);
   display: block;
   height: 3px;
   width: 170px;
   margin: 20px auto 5px;
  }
  #services h3 {
- color: #fff;
+ color: rgb(61, 33, 1);
  }
  #services p{
- color: #fff;
+ color: rgb(61, 33, 1);
  }
 
  #services .icon {
-   color: #fff;
+   color: rgb(61, 33, 1);
  }
    
  button{
-   color: #fff;
+   color: rgb(61, 33, 1);
    width: 150px;
    padding: 15px 0;
    text-align: center;
    margin: 0 10px;
    border-radius: 70px;
    background: transparent;
-   border: solid #fff;
+   border: solid rgb(61, 33, 1);
  }
 
  span{
